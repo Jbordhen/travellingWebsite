@@ -1,0 +1,305 @@
+body{
+    overflow: auto;
+    margin: 0px;
+    transition: 5s;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Main column */
+.main {
+    height: 110%;
+    width: 60%;
+    margin: 150px auto 0px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+#content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-wrap
+{
+    margin: auto auto 20px auto;
+    padding: 15px;
+}
+
+#search, #cEvent
+{
+    padding: 15px;
+    margin: 0;
+}
+
+.description
+{
+    flex: 70%;
+    padding: 20px;
+    overflow:auto;
+
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    flex: 30%;
+    padding: 20px;
+}
+
+/* join button */
+
+.btn-join{
+
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    border: none;
+    color: rgb(97, 97, 97);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 0px 0px 0px;
+}
+
+.btn-join:hover{
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+.btn-join:focus
+{
+    cursor: pointer;
+    outline: none;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+h5
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 194, 219);
+
+}
+
+
+
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+#srch-area
+{
+
+    width: 50%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    margin: 10px 10px 10px 0px;
+    padding: 8px;
+}
+
+
+#select
+{
+    width: 20%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+    color: rgb(97, 97, 97);
+}
+
+#btn-search{
+
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    border: none;
+    color: rgb(97, 97, 97);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 0px 0px 0px;
+}
+#btn-search:hover
+{
+    cursor: pointer;
+}
+
+hr
+{
+    border: 0;
+    height: 0px;
+    margin-top: 35px;
+    background: #c2c2c2;
+}
+
+#dPost-btn
+{
+
+    border-radius: 10px;
+    background-color: #fa004b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 0px;
+
+}
+
+
+#wPost
+{
+
+    border-radius: 10px;
+    background-color: #00c8fa;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 0px;
+
+}
+
+#wPost:hover,#postBtn:hover
+{
+    background-color:#00b7ff;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 120px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height:65%;
+    overflow:auto;
+    border-radius: 10px;
+}
+
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#posttext
+{
+    margin: 10px 10px 10px 10px;
+    padding: 0.5em;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    resize: none;
+
+}
+
+#title, #location
+{
+    margin: 10px 10px 10px 10px;
+    padding: 0.5em;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+}
+
+#postBtn
+{
+
+    border-radius: 10px;
+    background-color: #00c8fa;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 10px;
+
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row{
+
+        flex-direction: column;
+
+    }
+}
+#logout-btn
+{
+
+    border-radius: 10px;
+    background-color: #fa004b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 0px;
+
+}

@@ -1,0 +1,111 @@
+*
+{
+    box-sizing: border-box;
+}
+
+li a
+{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+}
+
+ul
+{
+
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color: rgb(37, 37, 37);
+    transition: .5s;
+    /* padding: 30px; */
+}
+
+ul li
+{
+    float:left;
+    width: 25%;
+    transition: 1s;
+
+}
+
+li:hover{
+    background: rgb(61, 61, 61);
+
+}
+
+
+#nav
+{
+    width: 100%;
+    /* position: fixed; */
+}
+
+#upp
+{
+    height:90px;
+    width: 100%;
+    background: rgb(61, 61, 61);
+    padding: 20px 0px 0px 20px;
+    /* overflow: hidden; */
+}
+
+#name{
+
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+
+#upper-part
+{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+ div
+ {
+     display: block;
+ } */
+#right
+{
+    position: relative;
+    float: right;
+    padding-right: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#left
+{
+    float: left;
+    padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 445px)
+{
+    #right{
+        float: left;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+    #right{
+        display: none;
+    }
+}

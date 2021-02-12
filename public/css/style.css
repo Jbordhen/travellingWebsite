@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    transition: 5s;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+#srch-area
+{
+
+    width: 50%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    margin: 10px 10px 10px 0px;
+}
+
+
+#select
+{
+    width: 20%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+    color: rgb(97, 97, 97);
+}
+
+#btn-search{
+
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    border: none;
+    color: rgb(97, 97, 97);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 0px 0px 0px;
+}
+#btn-search:hover
+{
+    cursor: pointer;
+}
+
+hr
+{
+    border: 0;
+    height: 0px;
+    margin-top: 35px;
+    background: #c2c2c2;
+}
+
+#edit-btn
+{
+    border-radius: 10px;
+    background-color: #0099ad;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 0px;
+
+}
+
+#uId
+{
+    color: #1900ff;
+    font-weight: bold;
+}
+
+#comment
+{
+
+    margin: 10px 10px 10px 0px;
+    padding: 0.5em;
+    border-style: none;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+
+}
+/*
+#write-comment
+{
+    margin: 10px 10px 10px 10px;
+    padding: 0.5em;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+
+} */
+
+.post
+{
+
+    margin: 10px 10px 10px 0px;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+
+}
+
+#com-btn
+{
+
+    border-radius: 10px;
+    background-color: #00c8fa;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:5px 10px 10px 0px;
+
+}
+
+#wCom
+{
+    resize: vertical;
+    margin: 10px 10px 10px 0px;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+
+}
+
+#com-id
+{
+    color: #4cc1fa;
+    font-weight: bold;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row{
+
+        flex-direction: column;
+
+    }
+}
+
+#dPost-btn,#logout-btn
+{
+
+    border-radius: 10px;
+    background-color: #fa004b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px 10px 10px 0px;
+
+}
+
+
+
+
